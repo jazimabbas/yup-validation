@@ -14,6 +14,8 @@ module.exports = (err, _, res, next) => {
     }
   }
 
+  console.log("error: ", err);
+
   res.status(statusCode).json({ message, errors });
 
   next();

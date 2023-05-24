@@ -1,4 +1,4 @@
-const validate = require("../libs/validations/validate");
+const validate = require("../libs/validate");
 
 module.exports =
   (schema, abortEarly = false) =>

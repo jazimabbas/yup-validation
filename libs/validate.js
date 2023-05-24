@@ -1,4 +1,4 @@
-const Errors = require("../custom-errors");
+const Errors = require("./custom-errors");
 
 module.exports = async function (schema, fields, abortEarly = false) {
   try {
